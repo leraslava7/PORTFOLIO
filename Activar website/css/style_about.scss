@@ -1,0 +1,225 @@
+@import "variables";
+
+header 
+  {
+    height: 108px !important;
+    background: #151515;
+  }
+
+
+section.aboutus
+{
+  background: $bgdark;
+  padding-top: 90px;
+  padding-bottom: 80px;
+  color: $white;
+  
+  h2
+  {
+    font-weight: 600;
+    margin-bottom: 18px;
+  }
+  h4
+  {
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  p
+  {
+      font-family: $f-family1;
+      font-weight: 400;
+      line-height: 26px;
+      margin-bottom: 15px;
+  }
+  i
+  {
+    color: #e4381C;
+    display: inline-block;
+    margin-right: 9px;
+  }
+  li
+  {
+    line-height: 26px;
+    margin-bottom: 10px;
+    font-family: $f-family1;
+    font-weight: 400;
+  }
+  .title
+  {
+    text-align: center;
+    padding-bottom: 30px;
+    margin: auto;
+    width: 75%;
+  }
+  img
+  {
+    margin-bottom: 54px;
+    width: 100%;
+  }
+  .text
+  {
+    display: flex;
+    flex-wrap: wrap;
+    div
+    {
+        flex: 1 1 47%;
+        padding: 0px 15px 0px 15px;
+    }
+  }
+
+}
+
+section.review
+{
+  background: url(img/testimonial-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 100px 0px 100px 0px;
+
+  .text
+  {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    color: $white;
+    background: transparent;
+    div
+    {
+      margin-bottom: 16px;
+      margin-top: 16px;
+    }
+
+  }
+  i
+  {
+    font-size: 20px;
+    color: #ffca04;
+    display: inline-block;
+  }
+  h4
+  {
+    line-height: 34px;
+    font-family: $f-family1;
+    margin-bottom: 20px;
+    text-transform: none;
+    
+  }
+  h5
+  {
+    font-weight: 500;
+    margin-bottom: 4px;
+    text-transform: none;
+  }
+  span
+  {
+    font-family: $f-family1;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}
+
+section.trainers_section
+{
+  background: $bgdark;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  color: $white;
+  h2
+  {
+    font-weight: 600;
+    margin-bottom: 18px;
+  }
+  p
+  {
+    font-weight: 400;
+  }
+  i
+  {
+    color: #afb4bf;
+  }
+  h5
+  {
+    text-transform: none;
+  }
+  span
+  {
+    font-size: 14px;
+    font-family: $f-family1;
+    font-weight: 500;
+  }
+  .title
+  {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .trainers
+  {
+    display: flex;
+    flex-wrap: wrap;
+    div
+    {
+      flex: 1 1 270px;
+      position: relative;
+      padding-left: 15px;
+      padding-right: 15px;
+      &:hover
+      {
+        .links
+        {
+          left: 20px;
+          a{
+            opacity: 1;
+          }
+        }
+      }
+    }
+    img
+    {
+      width: 100%;
+    }
+    a
+    {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+      background: $white;
+      margin-bottom: 10px;
+      border-radius: 2px;
+      transition: all 0.3s;
+      opacity: 0;
+      &:hover
+      {
+        background: $red;
+        i
+        {
+          color: $white;
+        }
+      }
+    }
+    .links
+    {
+      position: absolute;
+      left: -20px;
+      top: 20px;
+      transition: all 0.5s;
+    }
+  }
+  .text
+  {
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+    background: linear-gradient(45deg, #e16521, #e4381C);
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    clip-path: polygon(0 0, 100% 0%, 76% 0, 91% 100%, 0 100%);
+  }
+  
+  
+}
+

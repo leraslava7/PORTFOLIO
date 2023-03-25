@@ -1,0 +1,28 @@
+@import "variables";
+
+header 
+  {
+    height: 108px !important;
+    background: #151515;
+  }
+
+section.classes_section
+{
+    .title{
+        background-color: #151515;
+        background-image: none !important;
+        padding-top: 30px !important;
+    }
+}
+section.classtime
+{
+    .title
+    {
+        margin-bottom: 48px;
+    }
+}
+section.choose
+{
+    text-align: center;
+
+}

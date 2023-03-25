@@ -1,0 +1,17 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path id="svg_5" d="m214,196" opacity="NaN" stroke="#000" fill="#fff"/>
+  <rect stroke="url(#svg_13)" id="svg_7" height="608.99999" width="808.00004" y="0" x="-8.00006" fill="url(#svg_14)"/>
+ </g>
+ <defs>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_13">
+   <stop offset="0" stop-color="#e16521"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#e4381c"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_14">
+   <stop offset="0" stop-opacity="0.99609" stop-color="#e16521"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#e4381c"/>
+  </linearGradient>
+ </defs>
+</svg>

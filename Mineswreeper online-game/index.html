@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapper</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css"> 
+   
+    <script src="script.js" defer></script>
+
+    <script src="jquery.js"></script>
+    <script src="hhh.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div id='IMyModal' class='SModalGlass'>
+            <div id='IMyModalWindow'class='SModalWindow'>
+                <h2 class="center">САПЁР</h2>
+
+                <div class="LEVEL">
+                    <label for="level">Выберите уровень сложности:</label>
+                    <select class="level" id='LevelCh' name="level">
+                        <option value="1" name="level1">простой</option>
+                        <option value="2" name="level2">средний</option>
+                        <option value="3" name="level3">сложный</option>
+                    </select>
+                </div>
+                <div class="GAMER_NAME">
+                    <input type='text' id='IName' style='width: 150px' placeholder="Введите Ваше имя">
+                    <input type="submit" id="IValid" value='Запомнить меня' onclick='storeInfo()'>
+                </div>
+
+                <span id="INameError"></span>
+
+                <div class="START">
+                    <button id='StartSub' onclick='closeModal()'>СТАРТ</button>
+                </div>
+                <div class="RULES">
+                    <input type="button" value='Читать правила игры' onclick='testLoadData()'>
+                </div>
+                
+                <div  id='IPlace'></div>
+            </div>
+        </div>
+    
+        <div class="game" id="gameZone">
+            <div class="timer" id="gameTimer">
+                <span class="material-symbols-outlined" id="clockTimer">
+                    timer
+                </span>
+                <h1><time id="ITime">00:00:00</time></h1>
+            </div>
+            <div class="field"></div>
+        </div>
+
+        <div class="endGame" id="endGame"> </div>
+
+    </div>
+
+    <div class="mobile">
+        <div class='SModalGlass'>
+            <div class='SModalWindow'>
+                <h3>
+                    Данная игра поддерживается только на ПК и планшетах
+                </h3>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="alert.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+header {
+  height: 108px !important;
+  background: #151515;
+}
+
+section.aboutus {
+  background: #151515;
+  padding-top: 90px;
+  padding-bottom: 80px;
+  color: #fff;
+}
+section.aboutus h2 {
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+section.aboutus h4 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+section.aboutus p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+section.aboutus i {
+  color: #e4381C;
+  display: inline-block;
+  margin-right: 9px;
+}
+section.aboutus li {
+  line-height: 26px;
+  margin-bottom: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+section.aboutus .title {
+  text-align: center;
+  padding-bottom: 30px;
+  margin: auto;
+  width: 75%;
+}
+section.aboutus img {
+  margin-bottom: 54px;
+  width: 100%;
+}
+section.aboutus .text {
+  display: flex;
+  flex-wrap: wrap;
+}
+section.aboutus .text div {
+  flex: 1 1 47%;
+  padding: 0px 15px 0px 15px;
+}
+
+section.review {
+  background: url(img/testimonial-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 100px 0px 100px 0px;
+}
+section.review .text {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  background: transparent;
+}
+section.review .text div {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+section.review i {
+  font-size: 20px;
+  color: #ffca04;
+  display: inline-block;
+}
+section.review h4 {
+  line-height: 34px;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+section.review h5 {
+  font-weight: 500;
+  margin-bottom: 4px;
+  text-transform: none;
+}
+section.review span {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+section.trainers_section {
+  background: #151515;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+section.trainers_section h2 {
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+section.trainers_section p {
+  font-weight: 400;
+}
+section.trainers_section i {
+  color: #afb4bf;
+}
+section.trainers_section h5 {
+  text-transform: none;
+}
+section.trainers_section span {
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+}
+section.trainers_section .title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+section.trainers_section .trainers {
+  display: flex;
+  flex-wrap: wrap;
+}
+section.trainers_section .trainers div {
+  flex: 1 1 270px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+section.trainers_section .trainers div:hover .links {
+  left: 20px;
+}
+section.trainers_section .trainers div:hover .links a {
+  opacity: 1;
+}
+section.trainers_section .trainers img {
+  width: 100%;
+}
+section.trainers_section .trainers a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  transition: all 0.3s;
+  opacity: 0;
+}
+section.trainers_section .trainers a:hover {
+  background: #e4381c;
+}
+section.trainers_section .trainers a:hover i {
+  color: #fff;
+}
+section.trainers_section .trainers .links {
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  transition: all 0.5s;
+}
+section.trainers_section .text {
+  position: absolute;
+  left: 0;
+  bottom: 55px;
+  background: linear-gradient(45deg, #e16521, #e4381C);
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 76% 0, 91% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0%, 76% 0, 91% 100%, 0 100%);
+}/*# sourceMappingURL=style_about.css.map */

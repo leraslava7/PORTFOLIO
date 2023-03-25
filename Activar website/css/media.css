@@ -1,0 +1,232 @@
+@media all and (max-width: 1200px) {
+  header .social {
+    display: none !important;
+  }
+  section.blog_section .blog div {
+    flex: 0 1 270px !important;
+  }
+  section.classes_section .container_full div {
+    flex: 1 1 300px !important;
+    padding-bottom: 100px !important;
+  }
+  section.classtime .links label {
+    margin-right: 50px !important;
+  }
+  section.price_section .block {
+    flex: 0 1 250px !important;
+  }
+  footer .block_a {
+    flex: 0 1 250px !important;
+  }
+  footer .block_a a {
+    margin-right: 10px !important;
+  }
+  footer .block_b {
+    flex: 1 1 250px !important;
+  }
+  footer .block_c {
+    flex: 1 1 120px !important;
+  }
+  footer .block_d {
+    flex: 0 1 200px !important;
+  }
+}
+@media all and (max-width: 950px) {
+  header {
+    display: none;
+  }
+  header.mobile {
+    display: block !important;
+  }
+  section.breadcrumb {
+    margin-top: 0px !important;
+    padding-top: 150px !important;
+  }
+  section.hero .text {
+    width: 400px !important;
+  }
+  section.hero .text h2 {
+    font-size: 3em !important;
+  }
+  section.hero .text h1 {
+    font-size: 1.5em !important;
+  }
+  section.feature div {
+    flex: 1 1 500px !important;
+    background-position: center center !important;
+  }
+  section.price_section .block {
+    flex: 0 1 500px !important;
+  }
+  section.blog_section .blog {
+    flex-wrap: nowrap !important;
+  }
+  section.today .container div {
+    flex: 0 1 350px !important;
+    margin-bottom: 15px;
+  }
+  section.gallery label {
+    margin-right: 15px !important;
+    padding-bottom: 20px !important;
+  }
+  footer .container div {
+    flex: 1 1 320px !important;
+    margin-bottom: 20px;
+  }
+  footer .container div.block_a p {
+    padding-right: 10px;
+  }
+  footer .container div.block_b {
+    margin-left: 0% !important;
+  }
+}
+@media all and (max-width: 700px) {
+  section.classtime .links label {
+    margin-right: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  section.blog_section .blog {
+    flex-wrap: wrap !important;
+  }
+  section.blog_section .blog div {
+    flex: 0 1 380px !important;
+  }
+}
+@media all and (max-width: 400px) {
+  h2 {
+    font-size: 2em !important;
+  }
+  h4 {
+    font-size: 1.3em !important;
+  }
+  section.hero .slideX {
+    height: 650px !important;
+  }
+  section.hero .slideXX {
+    height: 650px !important;
+  }
+  section.hero .slideXXX {
+    height: 650px !important;
+  }
+  section.hero .text {
+    width: 300px !important;
+    padding-top: 250px !important;
+  }
+  section.hero .text h2 {
+    font-size: 2.3em !important;
+  }
+  section.feature div {
+    padding: 30px 10px 30px 10px !important;
+  }
+  section.home_about .container {
+    padding: 30px 10px 30px 10px !important;
+  }
+  section.classes_section .title {
+    padding: 30px 10px 30px 10px !important;
+  }
+  section.classes_section .title h2 {
+    font-size: 2em !important;
+  }
+  section.classes_section .container_full div {
+    padding: 30px 10px 30px 10px !important;
+  }
+  section.classtime {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  section.classtime table th {
+    padding: 10px 5px !important;
+  }
+  section.classtime table td {
+    padding: 10px 5px !important;
+  }
+  section.price_section {
+    padding: 30px 10px 30px 10px !important;
+  }
+  section.price_section .prices h4 {
+    margin-bottom: 15px !important;
+  }
+  section.price_section .block {
+    padding: 15px 0 15px !important;
+  }
+  section.choose {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  section.choose .block {
+    flex: 0 1 100% !important;
+    max-width: 100% !important;
+    padding-bottom: 20px !important;
+  }
+  section.video {
+    height: 250px !important;
+  }
+  section.video .container {
+    padding-top: 30px !important;
+  }
+  section.video .container h2 {
+    margin-bottom: 10px !important;
+  }
+  section.blog_section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  section.map .contacts {
+    width: 290px !important;
+    padding: 20px !important;
+    right: 20px !important;
+  }
+  section.map .contacts textarea {
+    width: 90% !important;
+  }
+  section.map .contacts input {
+    width: 90% !important;
+  }
+  section.breadcrumb {
+    padding: 150px 0px 20px 0px !important;
+  }
+  section.breadcrumb h2 {
+    font-size: 2em;
+  }
+  section.aboutus {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  section.aboutus h2 {
+    font-size: 2em;
+  }
+  section.review {
+    padding: 30px 10px 30px 10px !important;
+  }
+  section.trainers_section {
+    padding-top: 30px !important;
+  }
+  section.gallery {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  section.contact {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  section.contact h4 {
+    margin-bottom: 10px !important;
+  }
+  section.contact li {
+    padding-bottom: 8px !important;
+  }
+  section.contact .info div {
+    margin-bottom: 15px !important;
+  }
+  section.contact .form input {
+    margin-bottom: 10px !important;
+    flex: 0 1 100% !important;
+  }
+  section.contact textarea {
+    width: 93% !important;
+    height: 80px !important;
+  }
+  footer {
+    padding-top: 30px !important;
+  }
+}/*# sourceMappingURL=media.css.map */

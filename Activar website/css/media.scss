@@ -1,0 +1,356 @@
+@media all and (max-width: 1200px) 
+{
+    header{
+        .social{
+            display: none !important;
+        }
+    }
+
+    section.blog_section{
+
+        .blog{
+            div{
+                flex: 0 1 270px !important;
+            }
+        }
+    }
+
+    section.classes_section{
+        .container_full{
+            div{
+                flex: 1 1 300px !important;
+                padding-bottom: 100px !important;
+            }
+        }
+    }
+
+    section.classtime{
+        .links{
+            label{
+                margin-right: 50px !important;
+            }
+        }
+    }
+
+    section.price_section{
+        .block{
+            flex: 0 1 250px !important;
+        }
+    }
+
+    footer{
+        .block_a{
+            flex: 0 1 250px !important;
+            a{margin-right: 10px !important;}
+        }
+        .block_b{
+            flex: 1 1 250px !important;
+        }
+        .block_c{
+            flex: 1 1 120px !important;
+        }
+
+        .block_d{
+            flex: 0 1 200px !important;
+        }
+    }
+}
+
+@media all and (max-width: 950px) 
+{
+    header{
+        display: none;
+        &.mobile{
+            display: block !important;
+        }
+    }
+    section.breadcrumb {
+        margin-top: 0px !important;
+        padding-top: 150px !important;
+    }
+
+    section.hero{
+
+        .text
+        {
+          width: 400px !important;
+
+          
+            h2{
+                font-size: 3em !important;
+
+            }
+            h1{
+                font-size: 1.5em !important;
+
+            }
+          
+
+        }
+    }
+
+    section.feature{
+        div{
+            flex: 1 1 500px !important; 
+            background-position: center center !important;
+        }
+        
+    }
+
+    section.price_section{
+        .block{
+            flex: 0 1 500px !important;
+        }
+    }
+
+    section.blog_section{
+        .blog{
+            flex-wrap: nowrap !important;
+        }
+    }
+
+    section.today{
+        .container div {
+            flex: 0 1 350px !important;
+            margin-bottom: 15px;
+        }
+    }
+
+    section.gallery{
+        label{
+            margin-right: 15px !important;
+            padding-bottom: 20px !important;
+        }
+    }
+
+
+    footer{
+        .container{
+            div{
+                flex: 1 1 320px !important;
+                margin-bottom: 20px;
+                &.block_a{
+                    p{
+                        padding-right: 10px;
+                    }
+                }
+                &.block_b{
+                    margin-left: 0% !important;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 700px) 
+{
+    section.classtime{
+        .links{
+            label{
+                margin-right: 20px !important;
+                padding-bottom: 20px !important;
+            }
+        }
+    }
+    section.blog_section{
+        .blog{
+            flex-wrap: wrap !important;
+            div{
+                flex: 0 1 380px !important;
+            }
+            
+        }
+    }
+
+  
+
+}
+
+@media all and (max-width: 400px)
+{
+    h2{
+        font-size: 2em !important;
+      }
+    h4{
+        font-size: 1.3em !important;
+      }
+
+    section.hero{
+        .slideX{
+            height: 650px !important; 
+        }
+        .slideXX{
+            height: 650px !important; 
+        }
+        .slideXXX{
+            height: 650px !important; 
+        }
+        .text
+        {
+          width: 300px !important;
+          padding-top: 250px !important;
+          h2{
+            font-size: 2.3em !important;
+
+        }
+        }
+    }
+    section.feature {
+        div{
+            padding: 30px 10px 30px 10px !important;
+        }
+    }
+    section.home_about{
+        .container{
+            padding: 30px 10px 30px 10px !important;
+        }
+    }
+    section.classes_section{
+        .title{
+            padding: 30px 10px 30px 10px !important;
+            h2{
+                font-size: 2em !important;
+            }
+        }
+        .container_full{
+            div 
+            {
+              padding: 30px 10px 30px 10px !important;
+            }
+        }
+    }
+    section.classtime{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        table{
+            th
+            {
+              padding: 10px 5px !important;
+            }
+            td
+            {
+              padding: 10px 5px !important;
+            }
+        }
+    }
+    section.price_section{
+        padding: 30px 10px 30px 10px !important;
+        .prices{
+            h4 
+            {
+             margin-bottom: 15px !important;
+            }
+        }
+        .block 
+        {
+          padding: 15px 0 15px !important;
+ 
+        }
+    }
+    section.choose {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        .block
+        {
+          flex: 0 1 100% !important;
+          max-width: 100% !important;
+          padding-bottom: 20px !important;
+        }
+    }
+    section.video{
+        height: 250px !important;
+        .container{
+            padding-top: 30px !important;
+            h2{
+                margin-bottom: 10px !important;
+            }
+        }
+    }
+    section.blog_section
+    {
+      padding-top: 30px !important;
+      padding-bottom: 30px !important;
+    }
+
+    section.map{
+        .contacts{
+            
+                width: 290px !important;
+                padding: 20px !important;
+                right: 20px !important;
+                textarea 
+                {
+                  width: 90% !important;
+                }
+                input
+                {
+                  width: 90% !important;
+                }
+            
+
+              
+        }
+    }
+    section.breadcrumb {
+        padding: 150px 0px 20px 0px !important;
+        h2{
+            font-size: 2em;
+          }
+      }
+    section.aboutus
+    {
+      padding-top: 30px !important;
+      padding-bottom: 30px !important;
+      h2{
+        font-size: 2em;
+      }
+    }
+    section.review{
+        padding: 30px 10px 30px 10px !important;
+    }
+    section.trainers_section
+    {
+      padding-top: 30px !important;
+    }
+    section.gallery
+    {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    }
+    section.contact
+    {
+      padding-top: 30px !important;
+      padding-bottom: 30px !important;
+      h4
+      {
+        margin-bottom: 10px !important;
+      }
+      li 
+      {
+        padding-bottom: 8px !important;
+      }
+      .info
+      {
+        div
+        {
+          margin-bottom: 15px !important;
+        }
+      }
+      .form{
+        input
+          {
+            margin-bottom: 10px !important;
+            flex: 0 1 100% !important;
+          }
+      }
+      textarea{
+        width: 93% !important;
+        height: 80px !important;
+      }
+    }
+    footer{
+        padding-top: 30px !important;
+    }
+
+
+}

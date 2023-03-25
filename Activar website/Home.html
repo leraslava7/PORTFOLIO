@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=UTF-8>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, height=device-height, target=densitydpi=device-dpi, initial-scale=1">
+    <link rel="stylesheet" href="css/general.css" type="text/css">
+    <link rel="stylesheet" href="css/media.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- Подключаем CSS слайдера -->
+    <link rel="stylesheet" href="css/simple-adaptive-slider.css">
+    <!-- Подключаем JS слайдера -->
+    <script defer="" src="js/simple-adaptive-slider.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // активация слайдера
+        new ItcSimpleSlider('.itcss', {
+          loop: true,
+          autoplay: false,
+          swipe: true
+        });
+      });
+    </script>
+
+    <script src="https://kit.fontawesome.com/839d74a94a.js" crossorigin="anonymous"></script>
+
+  </head>
+
+<body>
+<!--Шапка-->
+    <header>
+        <div class="container-fluid">
+            <div class="logo">
+              <img src="img/logo.png" alt="Logo image" title="Activar">
+            </div>
+            <div class="menu">
+              <ul>
+                <li>
+                  <a href="Home.html" title="HOME">
+                    HOME
+                  </a>
+                </li>
+                <li>
+                  <a href="About-Us.html" title="ABOUT US">
+                    ABOUT US
+                  </a>
+                </li>
+                <li>
+                  <a href="schedule.html" title="SCHEDULE">
+                    SCHEDULE
+                  </a>
+                </li>
+                <li>
+                  <a href="Gallery.html" title="GALLERY"> 
+                    GALLERY
+                  </a>
+                </li>
+                <li>
+                  <a href="Contacts.html" title="CONTACTS">
+                    CONTACTS
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="social">
+              <a href="https://www.pinterest.com/" title="Pinterest link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 20 20">
+                  <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+                </svg>
+              </a>
+              <a href="https://ru.linkedin.com/" title="Linkedin link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 20 20">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg>
+              </a>
+              <a href="https://www.youtube.com/" title="Youtube link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-youtube" viewBox="0 0 20 20">
+                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/" title="Instagram link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 20 20">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+              </a>
+            </div>
+        </div>
+    </header>
+<!--Конец шапки-->
+<!--Шапка-->
+<header class="mobile">
+  <div class="container-full">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo image" title="Activar">
+      </div>
+      <input id="MENU" type="checkbox" class="Check">
+      <label for="MENU">
+        MENU
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="Home.html" title="HOME">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a href="About-Us.html" title="ABOUT US">
+              ABOUT US
+            </a>
+          </li>
+          <li>
+            <a href="schedule.html" title="SCHEDULE">
+              SCHEDULE
+            </a>
+          </li>
+          <li>
+            <a href="Gallery.html" title="GALLERY"> 
+              GALLERY
+            </a>
+          </li>
+          <li>
+            <a href="Contacts.html" title="CONTACTS">
+              CONTACTS
+            </a>
+          </li>
+        </ul>
+      </div>
+  </div>
+</header>
+<!--Конец шапки-->
+<!--Слайдер-->
+  <section class="hero"> 
+    <div class="itcss">
+      <div class="itcss__wrapper">
+        <div class="itcss__items">
+          <div class="itcss__item">
+            <div class="slideX">
+              <div class="text">
+                <h2>
+                  JOIN US NOW
+                </h2>
+                <h1>
+                  FITNESS &AMP; SPORT
+                </h1>
+                <a class="read" href="#Read_more" title="READ MORE">
+                    READ MORE
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="itcss__item">
+            <div class="slideXX">
+              <div class="text">
+                <h2>
+                  JOIN US NOW
+                </h2>
+                <h1>
+                  FITNESS &AMP; SPORT
+                </h1>
+                <a class="read" href="#Read_more" title="READ MORE">
+                    READ MORE
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="itcss__item">
+            <div class="slideXXX">
+              <div class="text">
+                <h2>
+                  JOIN US NOW
+                </h2>
+                <h1>
+                  FITNESS &AMP; SPORT
+                </h1>
+                <a class="read" href="#Read_more" title="READ MORE">
+                    READ MORE
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="itcss__btn itcss__btn_prev" role="button" data-slide="prev"></button>
+      <button class="itcss__btn itcss__btn_next" role="button" data-slide="next"></button>
+    </div>
+    
+  </section>
+<!--Конец слайдера-->
+<!--Три блока с классами-->
+  <section class="feature">
+
+      <div class="block_a">
+        <h3>
+          GROUP CLASSES
+        </h3>
+        <p>
+          The Sopranos manages to address the biases <br> and benefits of therapy
+        </p>
+        <a class="read" href="#Read_more" title="READ MORE">
+          READ MORE
+        </a>
+      </div>
+      <div class="block_b">
+        <h3>
+          PERSONAL TRAINING
+        </h3>
+        <p>
+          Strep throat is very common during the flu <br> seasons and it can be preceded
+        </p>
+        <a class="read" href="#Read_more" title="READ MORE">
+          READ MORE
+        </a>
+        </div>
+        <div class="block_c">
+          <h3>
+            SPORTS NUTRITION
+          </h3>
+          <p>
+            A Human Being&rsquo;s right to life implies his right to <br> have the free and unrestricted
+          </p>
+          <a class="read" href="#Read_more" title="READ MORE">
+            READ MORE
+          </a>
+        </div>
+
+  </section>
+<!--Конец Три блока с классами-->
+<!--Блок про кроссфит-->
+  <section class="home_about">
+    <div class="container">
+      <div class="text">
+      <h2>
+        WELCOME TO CROSSFIT
+      </h2>
+      <p class="small">
+        CrossFit is a cutting-edge functional fitness system that can <br> help everyday men.
+      </p>
+      <p class="x-small">
+        Success isn&rsquo;t really that difficult. There is a significant portion of the population <br> here in North America, that actually want and need success to be hard! For <br> those of you who are serious about having more, doing more, giving more and <br> being more.
+      </p>
+      <a class="learn" href="#Read_more" title="LEARN MORE">
+        LEARN MORE
+      </a>
+      </div>
+      <div class="img">
+        <img src="img/home-about.jpg">
+      </div>
+    </div>
+  </section>
+<!--Конец блока про кроссфит-->
+<!--Блок с программами-->
+<section class="classes_section">
+  <div class="title">
+    <h2>
+      CHOOSE YOUR PROGRAM
+    </h2>
+    <p>
+      Our Crossfit experts can help you discover new training techniques and exercises that <br>offer a dynamic and efficient full-body workout.
+    </p>
+  </div>
+  <div class="container_full">
+    <div class="block_a">
+      <h4>
+        CROSSFIT LEVEL 1
+      </h4>
+      <p>
+        Sufferers around the globe will be happy to hear that there are sleep apnea remedies.
+      </p>
+      <a class="read" href="#Read_more" title="READ MORE">
+        READ MORE
+      </a>
+    </div>
+    <div class="block_b">
+      <h4>
+        BOOTCAMP
+      </h4>
+      <p>
+        The oil, also called linseed oil, has many industrial uses – it is an important ingredient.
+      </p>
+      <a class="read" href="#Read_more" title="READ MORE">
+        READ MORE
+      </a>
+    </div>
+    <div class="block_c">
+      <h4>
+        ENERGY BLAST
+      </h4>
+      <p>
+        It is a very common occurrence like cold or fever depending upon your lifestyle.
+      </p>
+      <a class="read" href="#Read_more" title="READ MORE">
+        READ MORE
+      </a>
+    </div>
+    <div class="block_d">
+      <h4>
+        CLASSIC BODY BALANCE
+      </h4>
+      <p>
+        The procedure is usually a preferred alternative to photorefractive keratectomy.
+      </p>
+      <a class="read" href="#Read_more" title="READ MORE">
+        READ MORE
+      </a>
+    </div>
+  </div>
+</section>
+<!--Конец блока с программами-->
+<!--Блок с таблицей-->
+<section class="classtime">
+  <div class="container">
+    <div class="title">
+      <h2 id="Read_more">
+        CLASSTIME TABLE
+      </h2>
+    </div>
+    <div class="links">
+      <input type="radio" name="FOLDER" id="FOLDER1" checked class="SRadioFolder">
+      <label for="FOLDER1">ALL CLASS</label>
+      <input type="radio" name="FOLDER" id="FOLDER2" class="CROSS">
+      <label for="FOLDER2">CROSSFIT</label>
+      <input type="radio" name="FOLDER" id="FOLDER3" class="LUNGE">
+      <label for="FOLDER3" class="LUNGE">LUNGE BALL</label>
+      <input type="radio" name="FOLDER" id="FOLDER4" class="PPSR">
+      <label for="FOLDER4" class="PPSR">PPSR</label>
+      <input type="radio" name="FOLDER" id="FOLDER5" class="WALLS">
+      <label for="FOLDER5" class="WALLS">WALLS</label>
+      <input type="radio" name="FOLDER" id="FOLDER6" class="CANDY">
+      <label for="FOLDER6" class="CANDY">CANDY</label>
+
+
+      <table class="SFolderTable">
+        <thead>
+          <tr>
+            <th></th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+            <th>SATURDAY</th>
+            <th>SUNDAY</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>10.00</td>
+            <td class="hover cross">
+              <span>10.00 - 14.00</span>
+              <h6>CROSSFIT LV1</h6>
+            </td>
+            <td></td>
+            <td class="hover cross">
+              <span>10.00 - 15.00</span>
+              <h6>CROSSFIT LV1</h6>
+            </td>
+            <td></td>
+            <td class="hover lunge">
+              <span>10.00 - 13.00</span>
+              <h6>LUNGE BALL BUR</h6>
+            </td>
+            <td></td>
+            <td class="hover lunge">
+              <span>10.00 - 13.30</span>
+              <h6>LUNGE BALL BUR</h6>
+            </td>
+          </tr>
+          <tr>
+            <td>14.00</td>
+            <td></td>
+            <td class="hover lunge">
+              <span>14.00 - 17.00</span>
+              <h6>LUNGE BALL BUR</h6>
+            </td>
+            <td></td>
+            <td class="hover cross">
+              <span>14.00 - 17.00</span>
+              <h6>CROSSFIT LV1</h6>
+            </td>
+            <td></td>
+            <td class="hover walls">
+              <span>14.00 - 15.30</span>
+              <h6>WALLS TO KNEES</h6>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>16.00</td>
+            <td class="hover lunge">
+              <span>16.00 - 18.00</span>
+              <h6>LUNGE BALL BUR</h6>
+            </td>
+            <td></td>
+            <td class="hover candy">
+              <span>16.00 - 19.00</span>
+              <h6>CANDY</h6>
+            </td>
+            <td></td>
+            <td class="hover candy">
+              <span>16.00 - 19.00</span>
+              <h6>CANDY</h6>
+            </td>
+            <td class="hover ppsr">
+              <span>16.00 - 17.00</span>
+              <h6>PPSR</h6>
+            </td>
+            <td class="hover">
+              <span>16.00 - 20.00</span>
+              <h6>MURPH</h6>
+            </td>
+          </tr>
+          <tr>
+            <td>18.00</td>
+            <td class="hover walls">
+              <span>18.00 - 20.00</span>
+              <h6>WALLS TO KNEES</h6>
+            </td>
+            <td class="hover ppsr">
+              <span>18.00 - 20.00</span>
+              <h6>PPSR</h6>
+            </td>
+            <td></td>
+            <td class="hover">
+              <span>18.00 - 22.00</span>
+              <h6>CHELSEA</h6>
+            </td>
+            <td></td>
+            <td class="hover">
+              <span>18.00 - 22.00</span>
+              <h6>ANNIE</h6>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>20.00</td>
+            <td class="hover lunge">
+              <span>21.00 - 23.00</span>
+              <h6>LUNGE BALL BUR</h6>
+            </td>
+            <td class="hover walls">
+              <span>20.00 - 22.00</span>
+              <h6>WALLS TO KNEES</h6>
+            </td>
+            <td class="hover walls">
+              <span>20.30 - 23.00</span>
+              <h6>WALLS TO KNEES</h6>
+            </td>
+            <td></td>
+            <td class="hover cross">
+              <span>22.00 - 23.00</span>
+              <h6>CROSSFIT LV2</h6>
+            </td>
+            <td></td>
+            <td class="hover cross">
+              <span>21.00 - 23.00</span>
+              <h6>CROSSFIT LV2</h6>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!--Конец блока с таблицей-->
+<!--Блок с ценами-->
+<section class="price_section">
+  <div class="container">
+    <div class="title">
+      <h2>
+        CHOOSE YOUR PRICING PLAN
+      </h2>
+      <p>
+        These reports started to surface when Congress was having hearings about the <br>
+        painkiller, Vioxx. A Food and Drug Administration staff member.
+      </p>
+
+    </div>
+    <div class="toggle_option">
+      <ul>
+        <li>
+          Monthly
+        </li>
+        <li>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </li>
+        <li>
+          Years          
+        </li>
+      </ul>
+
+    </div>
+    <div class="prices">
+      <div class="block">
+        <h4>
+          NORMAL
+        </h4>
+        <h2>
+          55<span>$</span>
+        </h2>
+        <p>
+          MONTHLY
+        </p>
+        <ul>
+          <li>
+            Unlimited access to the gym
+          </li>
+          <li>
+            1 classes per week            
+          </li>
+          <li>
+            FREE drinking package            
+          </li>
+          <li>
+            1 Free personal training            
+          </li>
+        </ul>
+        <a href="#Form" class="read" title="GET STARTED">GET STARTED</a>
+      </div>
+      <div class="block STAR">
+        <h4>
+          PROFESSIONAL
+        </h4>
+        <h2>
+          95<span>$</span>
+        </h2>
+        <p>
+          MONTHLY
+        </p>
+        <ul>
+          <li>
+            Unlimited access to the gym
+          </li>
+          <li>
+            2 classes per week            
+          </li>
+          <li>
+            FREE drinking package            
+          </li>
+          <li>
+            2 Free personal training            
+          </li>
+        </ul>
+        <a href="#Form" class="read" title="GET STARTED">GET STARTED</a>
+        <div class="star">
+          <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" class="SVG" fill="#FFFFFF">
+            <g>
+              <path d="M0 0h24v24H0V0z" fill="none"/>
+              <path d="M0 0h24v24H0V0z" fill="none"/>
+            </g>
+            <g>
+              <path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="block">
+        <h4>
+          ADVANCED
+        </h4>
+        <h2>
+          165<span>$</span>
+        </h2>
+        <p>
+          MONTHLY
+        </p>
+        <ul>
+          <li>
+            Unlimited access to the gym
+          </li>
+          <li>
+            6 classes per week            
+          </li>
+          <li>
+            FREE drinking package            
+          </li>
+          <li>
+            5 Free personal training            
+          </li>
+        </ul>
+        <a href="#Form" class="read" title="GET STARTED">GET STARTED</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!--Конец блока с ценами-->
+<!--Блок выбор-->
+<section class="choose">
+  <div class="container">
+    <div class="title">
+      <h2>
+        WHY PEOPLE CHOOSE US
+      </h2>
+      <p>
+        Our sport experts and latest sports equipment are the winning combination.
+      </p>
+    </div>
+    <div class="choose_items">
+      <div class="block">
+        <div class="bg-chose_icon_1"></div>
+        <h5>SUPPORT 24/24</h5>
+        <p>One of the best ways to make a great vacation quickly horrible is to choose the wrong accommodations for your trip.</p>
+      </div>
+      <div class="block">
+        <div class="bg-chose_icon_2"></div>
+        <h5>OUR TRAINER</h5>
+        <p>If you are an infrequent traveler you may need some tips to keep the wife happy while you are jet setting around the globe.</p>
+      </div>
+      <div class="block">
+        <div class="bg-chose_icon_3"></div>
+        <h5>PERSONALIZED SESSIONS</h5>
+        <p>To succeed at any endeavor, you must stay the course…no matter what the cost! Here are some surefire tips to help you on your journey.</p>
+      </div>
+      <div class="block">
+        <div class="bg-chose_icon_4"></div>
+        <h5>OUR EQUIPMENT</h5>
+        <p>Rugby and Stratford-upon-Avon. Additionally, there are many things to see and do in and around Coventry itself.</p>
+      </div>
+      <div class="block">
+        <div class="bg-chose_icon_5"></div>
+        <h5>CLASSES DAILY</h5>
+        <p>We would just not have the will in us to go about our daily lives. Its motivation that helps us get through the most mundane.</p>
+      </div>
+      <div class="block">
+        <div class="bg-chose_icon_6"></div>
+        <h5>FOCUS ON YOUR HEALTH</h5>
+        <p>But there is only so far we can go within the constraints of a family budget in building the perfect telescopic operation.</p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!--Конец блока выбор-->
+<!--Блок с видео-->
+<section class="video">
+  <div class="container">
+    <h2>
+      GYM IN DOWTOWN NEW YORK
+    </h2>
+    <a href="https://www.youtube.com/watch?v=X_9VoqR5ojM" title="video link">
+      <svg xmlns="http://www.w3.org/2000/svg" class="play" viewBox="0 0 24 24" fill="#FFFFFF">
+        <path d="M0 0h24v24H0V0z" fill="none"/>
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+      </svg>
+    </a>
+  </div>
+</section>
+<!--Конец блока с видео-->
+<!--Блок с блоГом-->
+<section class="blog_section">
+  <div class="container">
+    <div class="title">
+      <h2 id="Blog">
+        FROM OUR BLOG
+      </h2>
+      <p>
+        List of all news and events that take place related to us
+      </p>
+
+    </div>
+    <div class="blog">
+      <div class="X">
+        <div class="block_a">
+          <a href="#Form" title="GYM &AMP; CROSSFIT">
+            <span>
+              GYM &AMP; CROSSFIT
+            </span>
+            <h5>
+              Many people sign up for affiliate programs
+            </h5>
+          </a>
+        </div>
+        <div class="block_f">
+          <a href="#Form" title="GYM &AMP; CROSSFIT">
+            <span>
+              GYM &AMP; CROSSFIT
+            </span>
+            <h5>
+              Your Antibiotic One Day To 10 Day Options
+            </h5>
+          </a>
+        </div>
+      </div>
+      
+      <div class="X">
+        <div class="block_b">
+          <a href="#Form" title="GYM &AMP; CROSSFIT">
+            <span>
+              GYM &AMP; CROSSFIT
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="instagram" viewBox="0 0 20 20">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+            </svg>
+            <h5>
+              Follow Our Classes Gyming on Instagram # BodyBuilding # photo
+            </h5>
+          </a>
+        </div>
+        <div class="block_d">
+          <a href="#Form" title="GYM &AMP; CROSSFIT">
+            <span>
+              GYM &AMP; CROSSFIT
+            </span>
+            <h5>
+              Many people sign up for affiliate programs
+            </h5>
+          </a>
+        </div>
+      </div>
+
+      <div class="X">
+        <div class="block_c">
+          <a href="#Form" title="GYM &AMP; CROSSFIT">
+            <span>
+              GYM &AMP; CROSSFIT
+            </span>
+            <h5>
+              Does Hydroderm Work
+            </h5>
+          </a>
+        </div>
+        <div class="block_e">
+          <a href="https://www.youtube.com/watch?v=X_9VoqR5ojM" title="Youtube video link">
+            <svg xmlns="http://www.w3.org/2000/svg" class="play" viewBox="0 0 24 24" fill="#FFFFFF">
+              <path d="M6.5 17.5v-11h11v11Z" fill="#e4381C"/>
+              <path d="M0 0h24v24H0V0z" fill="none"/>
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+            </svg>
+          </a>
+          <a href="#Form" title="GYM &AMP; CROSSFIT">
+            <span>
+              GYM &AMP; CROSSFIT
+            </span>
+            <h5>
+              Many people sign up for affiliate programs
+            </h5>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+
+
+  </div>
+</section>
+<!--Конец блока с блоГом-->
+<!--Блок начни сегодня-->
+<section class="today">
+  <div class="container">
+    <div>
+      <h3>
+        GET STARTED TODAY
+      </h3>
+      <p>
+        New student special! $30 unlimited Gym for the first week anh 50% of our member!
+      </p>
+    </div>
+    <a class="read" href="#Form" title="BOOK NOW">BOOK NOW</a>
+  </div>
+</section>
+<!--конец блока начни сегодня-->
+<!--Блок с картой-->
+<section class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d188618.51311104256!2d-71.236572!3d42.381647!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1576756626784!5m2!1sen!2sbd" allowfullscreen="">
+    Map
+  </iframe>
+  <div class="contacts">
+    <div class="open_time">
+      <h5>Weekday:</h5>
+      <ul>
+        <li>
+          Weekday:<span>06:30 &ndash; 11:00</span>
+        </li>
+        <li>
+          Saturday:<span class="saturday">07:00 &ndash; 22:00</span>
+        </li>
+        <li>
+          Sunday:<span class="sunday">09:00 &ndash; 18:00</span>
+        </li>
+      </ul>
+    </div>
+    <div class="form">
+      <h5 id="Form">Contact Us</h5>
+      <form method=post enctype='multipart/form-data' action='http://fe.it-academy.by/TestForm.php'>
+        <input type="text" placeholder="Name">
+        <input type="text" class="phone" placeholder="Phone">
+        <textarea placeholder="Message"></textarea>
+        <input type="submit" class="FORM" value="Submit now">
+      </form>
+    </div>
+  </div>
+</section>
+<!--Конец блока с картой-->
+<!--Подвал-->
+<footer>
+  <div class="container">
+    <div class="block_a">
+      <div class="logo">
+        <a href="Home.html" title="logo">
+          <img src="img/logo.png" alt="Logo image" title="Activar">
+        </a>
+      </div>
+      <p>
+        Despite growth of the Internet over the past seven years, the use of toll-free phone numbers in television advertising continues.
+      </p>
+      <div class="social">
+        <h6>
+          Follow us
+        </h6>
+        <a href="https://www.facebook.com/" title="Facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com/" title="Twitter">
+          <i class="fa-brands fa-twitter"></i>          
+        </a>
+        <a href="https://www.google.com/" title="Google">
+          <i class="fa-brands fa-google"></i>          
+        </a>
+        <a href="https://ru.linkedin.com/" title="Linkedin">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/" title="Instagram">
+          <i class="fa-brands fa-instagram"></i>          
+        </a>
+      </div>
+    </div>
+    <div class="block_b">
+      <h5>
+        Our blog
+      </h5>
+      <div>
+        <a href="#Blog" title="Our blog">
+          <h6>
+            Most people who work
+          </h6>
+          <span class="blog-time"><i class="fa-regular fa-clock"></i>Jan 02, 2019</span>
+        </a>
+        <a href="#Blog" title="Our blog">
+          <h6>
+            Freelance design tricks now
+          </h6>
+          <span class="blog-time"><i class="fa-regular fa-clock"></i>Jan 02, 2019</span>
+        </a>
+        <a href="#Blog" title="Our blog">
+          <h6>
+            Have a computer at home have had
+          </h6>
+          <span class="blog-time"><i class="fa-regular fa-clock"></i>Jan 02, 2019</span>
+        </a>
+      </div>
+    </div>
+    <div class="block_c">
+      <h5>
+        PROGRAM
+      </h5>
+      <ul>
+        <li>
+          <a href="#Read_more" title="Program">Bodybilding</a>
+        </li>
+        <li>
+          <a href="#Read_more" title="Program">Running</a>
+        </li>
+        <li>
+          <a href="#Read_more" title="Program">Streching</a>
+        </li>
+        <li>
+          <a href="#Read_more" title="Program">Weight Loss</a>
+        </li>
+        <li>
+          <a href="#Read_more" title="Program">Gym Fitness</a>
+        </li>
+      </ul>
+    </div>
+    <div class="block_d">
+      <h5>
+        Get Info
+      </h5>
+      <ul>
+        <li>
+          <i class="fa fa-phone"></i>
+          <span>Phone:</span>
+          <a href="tel:123456789" title="tel">123456789</a>              
+        </li>
+        <li>
+          <i class="fa fa-envelope-o"></i>
+          <span>Email:</span>
+          <a href="mailto:leraslava7@gmail.com" title="e-mail">leraslava7@gmail.com</a> 
+        </li>
+        <li>
+          <i class="fa fa-map-marker"></i>
+          <span>Address:</span>
+          Iris Watson, Box 283 8562, NY              
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>
+      Copyright &copy; 2022
+    </p>
+  </div>
+</footer>
+<!--Конец подвала-->
+</body>
+</html>

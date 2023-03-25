@@ -1,0 +1,276 @@
+body {
+    font-size: 16px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 90px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    margin: 0px 0px 45px 0px;
+  }
+  
+  h2 {
+    font-size: 48px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  h3 {
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  h4 {
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  h5 {
+    font-size: 18px;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+  }
+  
+  h6 {
+    font-size: 16px;
+    margin: 0px;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 24px;
+    margin: 0px;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    font-family: "Oswald", sans-serif;
+    font-size: 18x;
+    font-weight: 700;
+    list-style: none;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  a.read {
+    padding: 10px 40px 10px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 0.1em;
+    border-left: 2px solid #e16521;
+    border-right: 2px solid #e4381C;
+    border-top: 2px solid #e16521;
+    border-bottom: 2px solid #e4381C;
+    border-radius: 4px;
+    transition: 1000ms;
+  }
+  a.read:hover {
+    background-color: #e16521;
+  }
+  
+  .container {
+    max-width: 1200px;
+    
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  header {
+    height: 70px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+  }
+  header .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: flex-end;
+  }
+  header .container-fluid div {
+    display: inline-block;
+  }
+  header .container-fluid div li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 30px 0px 30px;
+  }
+  header .container-fluid .logo {
+    flex: 0 0 220px;
+    padding-left: 60px;
+  }
+  header .container-fluid .menu {
+    flex: 1 0 500px;
+    text-align: center;
+  }
+  header .container-fluid .menu a {
+    transition: all 0.2s;
+  }
+  header .container-fluid .menu a:hover {
+    color: #e4381c;
+    border-bottom: solid 2px #e4381c;
+  }
+  header .container-fluid .social {
+    flex: 0 0 200px;
+    padding-right: 60px;
+    display: inline-block;
+    text-align: end;
+  }
+
+  section.breadcrumb {
+    background: url(img/about-bread.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 100px;
+    padding: 100px 0px 105px 0px;
+    position: relative;
+  }
+  section.breadcrumb .container {
+    text-align: center;
+    color: #fff;
+  }
+  section.breadcrumb .container h2 {
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+  section.breadcrumb .container a, section.breadcrumb .container span {
+    margin-right: 5px;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  section.breadcrumb .container i {
+    font-size: 14px;
+  }
+
+  
+footer {
+  background: #151515;
+  padding-top: 72px;
+  color: #fff;
+}
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .container h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  font-family: "Oswald", sans-serif;
+}
+footer .container .block_a {
+  flex: 0 1 300px;
+}
+footer .container .block_a p {
+  color: #afb4bf;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+footer .container .block_a h6 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+}
+footer .container .block_a a {
+  margin-right: 32px;
+}
+footer .container .block_a .logo {
+  margin-bottom: 40px;
+}
+footer .container .block_b {
+  flex: 1 1 300px;
+  margin-left: 4%;
+}
+footer .container .block_b h6 {
+  margin-bottom: 12px;
+  transition: all 0.3s;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+footer .container .block_b span {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: block;
+  color: #afb4bf;
+  font-family: "Nunito Sans", sans-serif;
+}
+footer .container .block_b i {
+  color: #e4381c;
+  margin-right: 5px;
+}
+footer .container .block_b a {
+  display: block;
+  margin-bottom: 20px;
+}
+footer .container .block_b a:hover h6 {
+  color: #e4381c;
+}
+footer .container .block_c {
+  flex: 0 1 200px;
+}
+footer .container .block_c a {
+  display: block;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 22px;
+}
+footer .container .block_d {
+  flex: 0 1 300px;
+}
+footer .container .block_d li {
+  font-size: 16px;
+  color: #afb4bf;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font-family: "Nunito Sans", sans-serif;
+}
+footer .container .block_d li i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 24px;
+  color: #e4381c;
+}
+footer .container .block_d li span {
+  color: #fff;
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+footer .container .block_d li a {
+  color: #afb4bf;
+}
+footer .copyright {
+  background: #000000;
+  border-top: 1px solid #0a0a0a;
+  padding: 20px 0;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #afb4bf;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
